@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Architecture</title>
+    <link rel="stylesheet" href="stylep2.css">
+</head>
+<body>
+    <section>
+        <h2>Web Application Architecture </h2>
+        <p>Web Application Architecture is described as the interaction between different applications, databases, and middleware on the web. It ensures that the communication occurs simultaneously.
+            A web application has to include all subcomponents with the addition of external applications interchanges for the entire software application. This is used to combat the code parsed by the web browser.
+             The code might not have specific instructions to tell the browser how to deal with different user input.
+            There are to different codes which run simultaneously with each other. Client-side-code which is the code that runs in the browser and responds to some user input.
+             Server-side-code which is code that runs in the server and responds to HTTP requests.
+            The type of code run on the server will be decided in respects to the web browser. Code that can respond to HTTP can run on a server. 
+            The sever-side-code is responsible for creating the page requested and stores different type of data. It is never seen by the user.
+             The Client-side-code uses different codes to be seen and used by the user. While reacting to user input.
+            </p>
+            <h3><u>Web applications have four components : </u></h3>
+            <dl>
+                <dt>UI/UX Web Application Components</dt>
+                <dd>These are a part of the layout plan of a web application. They do not operate the web application architecture.</dd>
+                <dt>Structural Components</dt>
+                <dd>The two dominate structures of a web application are client and server sides.</dd>
+                <dt>Client Component</dt>
+                <dd>This is developed in HTML, CSS, and JavaScript. The component is run on the client web browser. It is the component that the end-user interacts with.</dd>
+                <dt>Server Component</dt>
+                <dd>This can be one or more build that uses different programming languages and frameworks. It has at least two parts: app logic and database. 
+                    The former controls the web application while the latter is where all persistent data is stored.</dd>
+            </dl>
+            <h3><u>Depending on the number of databases and servers available a model can be created. They can include:</u></h3>
+            <dl>
+                <dt>One Web Server, One Database</dt>
+                <dd>this model is the simplest but the most unreliable conversely. If One of the components, the server, goes down, the entirety of the website will go down. </dd>
+                <dt>Multiple Web Servers, One Database</dt>
+                <dd>The idea behind this model was that a server does not store information. So, the servers can process information parallel to each other and store it in the database. 
+                    If one of the servers go down the others will take precedence. This increases its reliability compared to the first one. You need at least two servers to form this model. </dd>
+                <dt>Multiple Web Server, Multiple Database- </dt>
+                <dd>This is the most efficient manner as there is no single point of weakness in the model. You could store the same data and distribute them evenly across the database, not more than 2 databases are required. 
+                    The other method would include storing the data in the different databases, this method although is susceptible to data loss or corruption.</dd>
+            </dl>
+            <p>The pattern of interaction between various web application components can be described as web applications architecture. 
+                The type of web application architecture depends on how the app logic is distributed among the client and server sides. 
+            </p>
+            <h3><u>There are mainly three types of web application architecture:</u></h3>
+            <dl>
+                <dt>Single-Page Applications</dt>
+                <dd>A single page web applications allow for dynamic interaction by means of providing updated content to the current page. This is used to avoid loading completely new pages from the server each time for a user action.</dd>
+                <dt>Microservices- </dt>
+                <dd>These services execute a single functionality. This allows the framework to improve productivity and increase the entire deployment process speed.</dd>
+                <dt>Serverless Architecture</dt>
+                <dd>An application developer would contact a third-party cloud server holder for outsourcing server with infrastructure management. This would be beneficial to the application for executing code without bothering with infrastructure related task.</dd>
+            </dl>
+    </section>
+    <aside>
+        <img src="images/Picture12.png" alt="">
+        <p>Image displaying overview how Web Application Works. Via <a href="https://stackify.com/wp-content/uploads/2017/05/web-application-architecture-example-diagram.png">here</a></p>
+    </aside>
+    <footer>
+        <ul>
+               <li><a href="indexed.html">first page</a></li>
+               <li><a href="ffthpage.html">prev page</a></li>
+                <li><a href="svnthpage.html">next page</a></li>
+                <li><a href="referencepage.html">last page</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
